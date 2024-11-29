@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-text-primary;
+  }
+}
+
+.timer-container {
+  background: linear-gradient(145deg, #1e1e1e, #191919);
+  box-shadow: 20px 20px 60px #0f0f0f,
+             -20px -20px 60px #232323;
+}
+
+.time-display {
+  background: linear-gradient(145deg, #191919, #1e1e1e);
+  box-shadow: inset 5px 5px 10px #151515,
+              inset -5px -5px 10px #232323;
+}
