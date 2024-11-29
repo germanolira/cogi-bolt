@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Rotated background square with 20% opacity -->
+  <rect 
+    x="10" 
+    y="10" 
+    width="80" 
+    height="80" 
+    fill="white" 
+    fill-opacity="0.2" 
+    rx="16" 
+    ry="16" 
+    transform="rotate(12, 50, 50)"
+  />
+  
+  <!-- Main square -->
+  <rect 
+    x="10" 
+    y="10" 
+    width="80" 
+    height="80" 
+    fill="white" 
+    rx="16" 
+    ry="16"
+  />
+  
+  <!-- Eyes -->
+  <rect 
+    x="35" 
+    y="35" 
+    width="12" 
+    height="24" 
+    fill="rgb(23, 23, 23)" 
+    rx="6" 
+    ry="6"
+  />
+  <rect 
+    x="53" 
+    y="35" 
+    width="12" 
+    height="24" 
+    fill="rgb(23, 23, 23)" 
+    rx="6" 
+    ry="6"
+  />
+</svg>

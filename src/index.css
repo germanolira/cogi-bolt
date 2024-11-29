@@ -9,13 +9,38 @@
 }
 
 .timer-container {
-  background: linear-gradient(145deg, #1e1e1e, #191919);
-  box-shadow: 20px 20px 60px #0f0f0f,
-             -20px -20px 60px #232323;
+  border-color: #191919;
+  border-width: 6px;
 }
 
-.time-display {
-  background: linear-gradient(145deg, #191919, #1e1e1e);
-  box-shadow: inset 5px 5px 10px #151515,
-              inset -5px -5px 10px #232323;
+@layer base {
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+.analytics-container {
+  @apply min-h-screen flex flex-col bg-background p-8;
+}
+
+.analytics-header {
+  @apply text-3xl font-bold text-gray-200 mb-6;
+}
+
+.analytics-card {
+  @apply bg-gray-800 p-4 rounded-lg;
+}
+
+.analytics-date {
+  @apply text-2xl font-semibold text-gray-200 mb-2;
+}
+
+.analytics-list {
+  @apply list-disc list-inside;
+}
+
+.analytics-item {
+  @apply text-gray-400;
 }
